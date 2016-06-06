@@ -1,6 +1,6 @@
 {
   "name": "is-dev",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Check if you're on a development version or the live version of your site",
   "main": "is-dev.js",
   "scripts": {
