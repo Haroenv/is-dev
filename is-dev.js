@@ -37,13 +37,13 @@
    * @param {string} [options.style='top-right']
    *   Style of the message to display in: [top-left, top-right, bottom, top, none]
    *   In case this isn't 'none', the following css gets added:
-   *   <code>position: fixed; padding: 1em; display: block; background-color: salmon; color: white; opacity: .7; font-weight: 700;</code>
+   *   <code>position: fixed; padding: 1em; display: block; background-color: salmon; color: white; opacity: .7; font-weight: 700; z-index: 9999;</code>
    * @param {string=} options.class.custom
    *   Additional css to add to the element
    */
   function isDev(options) {
     // setting of defaults
-    var style = 'position: fixed; padding: 1em; display: block; background-color: salmon; color: white; opacity: .7; font-weight: 700;';
+    var style = 'position: fixed; padding: 1em; display: block; background-color: salmon; color: white; opacity: .7; font-weight: 700; z-index: 9999;';
     if (typeof options.dev == 'undefined') {
       options.dev = ['.dev','localhost','file:///'];
     }
