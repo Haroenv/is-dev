@@ -18,7 +18,7 @@ $ npm install --save is-dev
 
 Include either `is-dev.js` via a script tag, or `require('is-dev')` in your script. After that you can call it like this (all options are optional):
 
-[demo](https://haroen.me/is-dev).
+[demo](https://haroen.me/is-dev/) and [full documentation](https://haroen.me/is-dev/doc/)
 
 ```js
 isDev({
