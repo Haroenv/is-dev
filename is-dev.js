@@ -80,10 +80,10 @@
           el.style.cssText += 'top: 0; left: 0;';
           break;
         case 'top':
-          el.style.cssText += 'top: 0; width: 100%;';
+          el.style.cssText += 'left: 0; top: 0; width: 100%;';
           break;
         case 'bottom':
-          el.style.cssText += 'bottom: 0; width: 100%;';
+          el.style.cssText += 'left: 0; bottom: 0; width: 100%;';
           break;
         case 'none':
           el.style.cssText = '';
