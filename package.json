@@ -1,0 +1,32 @@
+{
+  "name": "is-dev",
+  "version": "0.0.0",
+  "description": "Check if you're on a development version or the live version of your site",
+  "main": "is-dev.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint is-dev.js",
+    "doc": "jsdoc -R README.md -d doc is-dev.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haroenv/is-dev.git"
+  },
+  "keywords": [
+    "development",
+    "browser",
+    "localhost",
+    ".dev",
+    "file:///"
+  ],
+  "author": "Haroen Viaene <hello@haroen.me>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Haroenv/is-dev/issues"
+  },
+  "homepage": "https://haroen.me/is-dev/",
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "jsdoc": "^3.4.0"
+  }
+}
