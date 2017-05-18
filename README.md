@@ -2,7 +2,8 @@
 
 > Check if you're on a development version or the live version of your site
 
-[![Build Status](https://travis-ci.org/Haroenv/is-dev.svg?branch=gh-pages)](https://travis-ci.org/Haroenv/is-dev) [![npm version](https://badge.fury.io/js/is-dev.svg)](https://www.npmjs.com/package/is-dev)
+[![Build Status](https://travis-ci.org/Haroenv/is-dev.svg?branch=gh-pages)](https://travis-ci.org/Haroenv/is-dev)
+[![npm version](https://badge.fury.io/js/is-dev.svg)](https://yarnpkg.com/en/package/is-dev)
 
 A tiny script that displays a message if you're on the development version of a site, so you can visually distinguish it from the live version.
 
